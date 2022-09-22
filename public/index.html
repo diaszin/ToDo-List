@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <!-- Código de interavidade -->
+    <script src="./tarefa.js" defer></script>
+    <title>My app</title>
+</head>
+<body>
+    <div id="first">
+        <h1>ToDo List</h1>
+        <form action="/cadastrar" method="post" autocomplete="off">
+            <input type="text" name="tarefa" id="tarefa" required placeholder="Digite sua tarefa aqui ...">
+            <button type="submit" >Adicionar Tarefa</button>
+        </form>
+    </div>
+    <div id="second">
+        <ul id="lista-tarefas">
+            <li>
+                <input type="checkbox" name="tarefaCheck"  style="width: 10px;height: 10px;">
+                Lavar a louça de casa
+            </li>
+            <li>
+                <input type="checkbox" name="tarefaCheck"  style="width: 10px;height: 10px;">
+                Limpar o chão
+            </li>
+            <li>
+                <input type="checkbox" name="tarefaCheck"  style="width: 10px;height: 10px;">
+                Fazer comida para amanhã
+            </li>
+            
+        </ul>
+    </div>
+
+    <footer>
+        <div>
+            <h2>Criado por <a href="https://instagram.com/ynmdiaszinm">Kaique Dias</a></h2>
+        </div>
+    </footer>
+</body>
+</html>
